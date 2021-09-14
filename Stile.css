@@ -4,8 +4,8 @@
   align-items: center;
   }
 
-btn:active{
-background-color: red !important;
+button.selected{
+  color:red;
 }
 
 .button {
