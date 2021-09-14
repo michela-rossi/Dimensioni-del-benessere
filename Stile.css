@@ -25,6 +25,10 @@
 background-color: #56021a;
 } 
 
+.btn1 .btn2 .btn3 .btn4 .btn5:hover{
+background-color: #ededed;
+} 
+
 
 #SxC_Base {
     z-index: -1;
