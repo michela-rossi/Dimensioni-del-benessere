@@ -19,11 +19,8 @@
     font-size: 25px;
     border: none;
     shadow: none;
+    transition-duration: 0.4s;
   }
-
-.button {
-  transition-duration: 0.4s;
-}
 
 .button:hover{
    background-color: #510218; 
