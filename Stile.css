@@ -6,6 +6,7 @@
 
 .selected{
   background-color:#d6012e;
+  color: white;
 }
 
 .button {
@@ -15,7 +16,6 @@
     height: 50px; 
     font-size: 25px;
     border: none;
-    shadow: none;
   }
 
 #SxC_Base {
