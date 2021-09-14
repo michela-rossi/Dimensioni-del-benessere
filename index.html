@@ -60,20 +60,20 @@
     
     <div class="paragrafi">
   <p id="p1"> Corpo e movimento</p>  
-        <button class="btn" onclick="picture1_0()">0</button>
-        <button class="btn" onclick="picture1_1()">1</button>
-        <button class="btn" onclick="picture1_2()">2</button>
-        <button class="btn" onclick="picture1_3()">3</button>
-        <button class="btn" onclick="picture1_4()">4</button>
-        <button class="btn" onclick="picture1_5()">5</button>
+        <button id="btn1" onclick="picture1_0()">0</button>
+        <button id="btn1" onclick="picture1_1()">1</button>
+        <button id="btn1" onclick="picture1_2()">2</button>
+        <button id="btn1" onclick="picture1_3()">3</button>
+        <button id="btn1" onclick="picture1_4()">4</button>
+        <button id="btn1" onclick="picture1_5()">5</button>
 
  <p id="p1"> Relazioni</p>  
-        <button onclick="picture2_0()">0</button>
-        <button onclick="picture2_1()">1</button>
-        <button onclick="picture2_2()">2</button>
-        <button onclick="picture2_3()">3</button>
-        <button onclick="picture2_4()">4</button>
-        <button onclick="picture2_5()">5</button>
+        <button id="btn2" onclick="picture2_0()">0</button>
+        <button id="btn2" onclick="picture2_1()">1</button>
+        <button id="btn2" onclick="picture2_2()">2</button>
+        <button id="btn2" onclick="picture2_3()">3</button>
+        <button id="btn2" onclick="picture2_4()">4</button>
+        <button id="btn2" onclick="picture2_5()">5</button>
 
  <p id="p1"> Conoscenze e competenze</p>  
         <button onclick="picture3_0()">0</button>
@@ -123,8 +123,13 @@
         }
 
         
-        $('button').on('click', function(){
-    $('button').removeClass('selected');
+        $('#btn1').on('click', function(){
+    $('#btn1').removeClass('selected');
+    $(this).addClass('selected');
+});
+        
+           $('#btn2').on('click', function(){
+    $('#btn2').removeClass('selected');
     $(this).addClass('selected');
 });
         function picture1_0(){ 
