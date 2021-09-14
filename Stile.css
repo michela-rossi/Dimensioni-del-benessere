@@ -18,7 +18,9 @@
     height: 50px; 
     font-size: 25px;
     border: none;
+    shadow: none;
   }
+
 .button {
   transition-duration: 0.4s;
 }
