@@ -76,29 +76,29 @@
         <button class="btn2" onclick="picture2_5()">5</button>
 
  <p id="p1"> Conoscenze e competenze</p>  
-        <button onclick="picture3_0()">0</button>
-        <button onclick="picture3_1()">1</button>
-        <button onclick="picture3_2()">2</button>
-        <button onclick="picture3_3()">3</button>
-        <button onclick="picture3_4()">4</button>
-        <button onclick="picture3_5()">5</button>
+        <button class="btn3" onclick="picture3_0()">0</button>
+        <button class="btn3" onclick="picture3_1()">1</button>
+        <button class="btn3" onclick="picture3_2()">2</button>
+        <button class="btn3" onclick="picture3_3()">3</button>
+        <button class="btn3" onclick="picture3_4()">4</button>
+        <button class="btn3" onclick="picture3_5()">5</button>
 
 
 <p id="p1"> Creatività, abilità e talenti</p>  
-        <button onclick="picture4_0()">0</button>
-        <button onclick="picture4_1()">1</button>
-        <button onclick="picture4_2()">2</button>
-        <button onclick="picture4_3()">3</button>
-        <button onclick="picture4_4()">4</button>
-        <button onclick="picture4_5()">5</button>
+        <button class="btn4" onclick="picture4_0()">0</button>
+        <button class="btn4" onclick="picture4_1()">1</button>
+        <button class="btn4" onclick="picture4_2()">2</button>
+        <button class="btn4" onclick="picture4_3()">3</button>
+        <button class="btn4" onclick="picture4_4()">4</button>
+        <button class="btn4" onclick="picture4_5()">5</button>
 
 <p id="p1">Autodeterminazione</p>  
-        <button onclick="picture5_0()">0</button>
-        <button onclick="picture5_1()">1</button>
-        <button onclick="picture5_2()">2</button>
-        <button onclick="picture5_3()">3</button>
-        <button onclick="picture5_4()">4</button>
-        <button onclick="picture5_5()">5</button>
+        <button class="btn5" onclick="picture5_0()">0</button>
+        <button class="btn5" onclick="picture5_1()">1</button>
+        <button class="btn5" onclick="picture5_2()">2</button>
+        <button class="btn5" onclick="picture5_3()">3</button>
+        <button class="btn5" onclick="picture5_4()">4</button>
+        <button class="btn5" onclick="picture5_5()">5</button>
    
     </div>
    
@@ -129,6 +129,18 @@
 });
     $('button.btn2').on('click', function(){
     $('button.btn2').removeClass('selected');
+    $(this).addClass('selected');
+});
+    $('button.btn3').on('click', function(){
+    $('button.btn3').removeClass('selected');
+    $(this).addClass('selected');
+});    
+    $('button.btn4').on('click', function(){
+    $('button.btn4').removeClass('selected');
+    $(this).addClass('selected');
+});    
+    $('button.btn5').on('click', function(){
+    $('button.btn5').removeClass('selected');
     $(this).addClass('selected');
 });
   
