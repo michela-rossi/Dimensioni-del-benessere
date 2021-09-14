@@ -5,15 +5,17 @@
   }
 
 .selected{
-  color:red;
+  background-color:#d6012e;
 }
 
 .button {
-   background-color: red;
+   background-color: #d6012e;
     color: white;
     width: 300px;
     height: 50px; 
     font-size: 25px;
+    border: none;
+    shadow: none;
   }
 
 #SxC_Base {
