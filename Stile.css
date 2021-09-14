@@ -27,6 +27,28 @@ background-color: #56021a;
 
 .btn1:hover{
 background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn2:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn3:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn4:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
+} 
+.btn5:hover{
+background-color: #ededed;
+    border: none;
+    shadow:none;
 } 
 
 
