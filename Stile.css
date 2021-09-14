@@ -7,6 +7,8 @@
 .selected{
   background-color:#d6012e;
   color: white;
+    border: none;
+    shadow:none;
 }
 
 .button {
