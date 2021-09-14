@@ -60,12 +60,12 @@
     
     <div class="paragrafi">
   <p id="p1"> Corpo e movimento</p>  
-        <button id="btn1" onclick="picture1_0()">0</button>
-        <button id="btn1" onclick="picture1_1()">1</button>
-        <button id="btn1" onclick="picture1_2()">2</button>
-        <button id="btn1" onclick="picture1_3()">3</button>
-        <button id="btn1" onclick="picture1_4()">4</button>
-        <button id="btn1" onclick="picture1_5()">5</button>
+        <button class="btn1" onclick="picture1_0()">0</button>
+        <button class="btn1" onclick="picture1_1()">1</button>
+        <button class="btn1" onclick="picture1_2()">2</button>
+        <button class="btn1" onclick="picture1_3()">3</button>
+        <button class="btn1" onclick="picture1_4()">4</button>
+        <button class="btn1" onclick="picture1_5()">5</button>
 
  <p id="p1"> Relazioni</p>  
         <button id="btn2" onclick="picture2_0()">0</button>
@@ -123,8 +123,8 @@
         }
 
         
-           $('button#btn1').on('click', function(){
-    $('button#btn1').removeClass('selected');
+           $('button.btn1').on('click', function(){
+    $('button.btn1').removeClass('selected');
     $(this).addClass('selected');
 });
   
