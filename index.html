@@ -68,12 +68,12 @@
         <button class="btn1" onclick="picture1_5()">5</button>
 
  <p id="p1"> Relazioni</p>  
-        <button id="btn2" onclick="picture2_0()">0</button>
-        <button id="btn2" onclick="picture2_1()">1</button>
-        <button id="btn2" onclick="picture2_2()">2</button>
-        <button id="btn2" onclick="picture2_3()">3</button>
-        <button id="btn2" onclick="picture2_4()">4</button>
-        <button id="btn2" onclick="picture2_5()">5</button>
+        <button class="btn2" onclick="picture2_0()">0</button>
+        <button class="btn2" onclick="picture2_1()">1</button>
+        <button class="btn2" onclick="picture2_2()">2</button>
+        <button class="btn2" onclick="picture2_3()">3</button>
+        <button class="btn2" onclick="picture2_4()">4</button>
+        <button class="btn2" onclick="picture2_5()">5</button>
 
  <p id="p1"> Conoscenze e competenze</p>  
         <button onclick="picture3_0()">0</button>
@@ -123,8 +123,12 @@
         }
 
         
-           $('button.btn1').on('click', function(){
+    $('button.btn1').on('click', function(){
     $('button.btn1').removeClass('selected');
+    $(this).addClass('selected');
+});
+    $('button.btn2').on('click', function(){
+    $('button.btn2').removeClass('selected');
     $(this).addClass('selected');
 });
   
